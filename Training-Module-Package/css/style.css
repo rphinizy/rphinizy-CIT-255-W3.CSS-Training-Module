@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    /* The image used */
+    background-image: url("../images/background.jpg");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+}
+header{
+    max-width: 50%;
+    text-align: center;
+    font-size: 16pt;
+    display: block;
+}
+
+footer{
+    font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    font-size: 16pt;
+    text-align: center;
+    color: #426146;
+    
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width:60%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 2em;
+    color:orangered;
+    font-weight: strong;
+    text-shadow:2px 2px 10px whitesmoke;
+    text-align: center;
+    margin:20px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #ff7f50;
+    font-weight: strong;
+    text-align: center;
+    margin:20px;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color:#56cdaa;  
+}
+
+div{
+  background-color:whitesmoke;
+  border-radius: 5px;
+  width: 50%;
+  margin:auto;
+}
+
+.all-instructions {
+  width:50%;
+  margin: auto;
+  background-color: rgb(255, 123, 22);
+  border-radius: 55px;
+  box-shadow: 15px 15px 20px rgb(79, 32, 1);
+}
+
+.step {
+  width:90%;
+  margin:auto;
+  text-align:left;
+  background: white;
+  border-radius: 25px;
+}
+
